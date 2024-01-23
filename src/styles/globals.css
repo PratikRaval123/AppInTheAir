@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "SFProDisplay";
+}
+
+.MuiPaper-root {
+  background-color: transparent;
+}
+
+@font-face {
+  font-family: "SFProDisplay";
+  src: url('../../public/fonts/SFPRODISPLAYREGULAR.OTF');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SFProDisplay";
+  src: url('../../public/fonts/SFPRODISPLAYBOLD.OTF');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SFProDisplay";
+  src: url("../../public/fonts/SFPRODISPLAYTHINITALIC.OTF");
+  font-weight: normal;
+  font-style: italic;
+}
+
+.swiper-pagination {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .swiper-pagination {
+    margin-top: 40px;
+  }
+}
